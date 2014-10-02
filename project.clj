@@ -5,4 +5,5 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [org.clojure/data.json "0.2.5"]
-                 [io.aviso/pretty "0.1.12"]])
+                 [io.aviso/pretty "0.1.12"]
+                 [org.clojure/test.check "0.5.9"]])

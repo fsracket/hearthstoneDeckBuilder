@@ -1,7 +1,10 @@
 (ns deck-sim.card-reader
   (:require [clojure.data.json :as json]
             [clojure.repl :as repl]
-            [clojure.set :as set]))
+            [clojure.set :as set])
+  (:require [clojure.test.check :as tc])
+  (:require [clojure.test.check.generators :as gen])
+  (:require [clojure.test.check.properties :as prop]))
 
 
 
